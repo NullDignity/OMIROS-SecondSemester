@@ -1,0 +1,101 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: auto;
+    width: 500px;
+    color: #ffe600;
+    background-color: #ff8800;
+    margin-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    height: auto;
+    width: 500px;
+    color: #ffffff;
+    background-color: #ff8800;
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+section {
+    height: auto;
+    width: 500px;
+    background-color: #191824;
+    color: #ffea29;
+}
+
+button {
+    float: right;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+select {
+    border-radius: 4px;
+    height: 35px;
+    margin-left: 3px;   
+    margin-right: 10px;
+}
+
+tr {
+    float: right;
+    padding-bottom: 10px;
+}
+
+#dob_text {
+    margin-right: 30px;
+}
+
+#month_box {
+    width: 120px;
+}
+
+#day_box {
+    width: 50px;
+}
+
+#year_box {
+    width: 100px;
+}
+
+#text_input {
+    border-radius: 4px;
+    width: 300px;
+    height: 35px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#radio_space {
+    margin-right: 180px;
+}
+
+#gender_space {
+    margin-right: 35px;
+}
+
+#checkbox_space {
+    margin-right: 90px;
+}
+
+#submit_button {
+    color: #ffffff;
+    background-color: #3cbb3c;
+    border-color: #3cbb3c;
+}
+
+#clear_button {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}

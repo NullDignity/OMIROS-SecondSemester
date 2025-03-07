@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <title>Sign Up - Project</title>
+    </head>
+    <body>
+        <form>
+            <header>&nbsp;&nbsp;Sign Up</header>
+            <section>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td colspan="3"><input type="text" placeholder="Enter First Name" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td colspan="3"><input type="text" placeholder="Enter Last Name" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td>Screen Name</td>
+                        <td colspan="3"><input type="text" placeholder="Enter Screen Name" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td><div id="dob_text">Date of Birth</div></td>
+                        <td>
+                            <select name="month" id="month_box"> <!-- Για εμφάνιση -->
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>                                 
+                            </select>
+                        </td>
+                        <td>
+                            <select name="day" id="day_box"> <!-- Για εμφάνιση -->
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>                                    
+                            </select>
+                        </td>
+                        <td>
+                            <select name="year" id="year_box"> <!-- Για εμφάνιση -->
+                                <option value="1985">1985</option>
+                                <option value="1986">1986</option>
+                                <option value="1987">1987</option>
+                                <option value="1988">1988</option>
+                                <option value="1989">1989</option>
+                                <option value="1990">1990</option>                                    
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><div id="gender_space">Gender</div></td>
+                        <td><input type="radio" name="gender" value="Male"> Male</td>
+                        <td><input type="radio" name="gender" value="Female"> Female</td>
+                        <td><div id="radio_space"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>
+                            <select name="country" id="text_input"> <!-- Για εμφάνιση -->
+                                <option value="United States of America">United States of America</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Germany">Germany</option>
+                                <option value="France">France</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td colspan="3"><input type="email" placeholder="Enter E-mail" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td colspan="3"><input type="tel" placeholder="Enter Phone" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td colspan="3"><input type="password" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td> <!-- Χωρίς λειτουργικότητα, αφού δεν μπορούμε να χρησιμοποιήσουμε JavaScript. -->
+                        <td colspan="3"><input type="password" required id="text_input"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="checkbox" value="agreement" required>&nbsp;&nbsp;I agree to the Terms of Use</td>
+                        <td><div id="checkbox_space"></div></td>
+                    </tr>
+                </table>
+            </section>
+            <footer>
+                <button id="clear_button" type="reset">Cancel</button>&nbsp;<button id="submit_button" type="submit" value="Submit">Submit</button>
+            </footer>
+        </form>
+    </body>
+</html>

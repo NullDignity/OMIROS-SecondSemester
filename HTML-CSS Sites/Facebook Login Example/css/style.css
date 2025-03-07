@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: #e3e5f1;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #375697;
+    height: 100px;
+}
+
+#logo img {
+    width: 40%;  
+    height: 90%; 
+}
+
+#login {
+    color: white;
+    width: 60%;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+#login a {
+    color: #a6bdee;
+    text-decoration: none;
+}
+
+#login table td {
+    padding-right: 10px;
+}
+
+#login table {
+    float: right;
+}
+
+.sub {
+    width: 60px;
+    height: 25px;
+    background-color: #263c6b;
+    border-color: #263c6b;
+    color: #fff;
+}
+
+#network {
+    padding-top: 25px;
+    width: 50%;
+    color: #263c6b;
+    padding-right: 5%;
+}
+
+#network img {
+    padding-top: 40px;
+    width: 100%;
+}
+
+#signup {
+    padding-top: 25px;
+    padding-right: 3%;
+    width: 50%;
+}
+
+#signup table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#signup table td {
+    padding-top: 2px;
+    width: 50%;
+    height: 30px;
+}
+
+#signup table td input {
+    width: 100%;
+    height: 100%;
+}
+
+#signup h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#signup h3 {
+    padding-bottom: 15px;
+}
+
+#signup table td p {
+    color: #808080;
+    font-size: 14px;
+}
+
+.radio {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.signupbutton {
+    background-color: #3edf1e;
+    border-color: #3edf1e;
+    color: #fff;
+    width: 60% !important;
+    border-radius: 7px; 
+}
